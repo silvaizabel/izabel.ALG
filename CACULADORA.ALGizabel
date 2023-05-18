@@ -1,0 +1,29 @@
+Algoritmo "caculadora"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 9/3/2023
+Var
+// Seção de Declarações das variáveis 
+   primeironumero:inteiro
+   segundonumero:inteiro
+   terceironumero:inteiro
+   quartonumero:inteiro
+   resultado:inteiro
+Inicio
+//
+   escreval("seja bem vindo!")
+   escreval("informe o primeiro numero")
+   leia(primeironumero)
+   escreval("informe o segundo numero")
+   leia(segundonumero)
+   resultado<-(primeironumero+segundonumero)
+   escreval("soma dos dois numeros",resultado)
+   escreval("informe o terceiro numero")
+   leia(terceironumero)
+   escreval("informe o quarto numero")
+   leia(quartonumero)
+   resultado<-(primeironumero+segundonumero+terceironumero+quartonumero)
+   escreval("soma dos quatro numeros")
+Fimalgoritmo
